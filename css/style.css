@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+section#home{
+    height: 100vh;
+    background: #3a3ea6;
+    background: linear-gradient(90deg, rgba(58, 62, 166, 1) 21%, rgb(83, 2, 130) 51%, rgba(58, 62, 166, 1) 91%);
+    padding: 0 50px 0 50px;
+    
+}
+section#home header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+section#home header div h1{
+    color:white
+}
+section#home header nav ul{
+    display: flex;
+    gap: 10px;
+    margin-top: 6.3px;
+}
+section#home header nav ul li{
+    list-style: none;
+
+}
+section#home header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+button{
+    border-radius: 5px;
+    height: 30px;
+    padding-top: 1px;
+    width: 80px;
+    border: none;
+    color: white;
+    background: #3a3ea6;
+    background: linear-gradient(90deg, rgb(4, 10, 160) 21%, rgb(83, 2, 130) 51%, rgb(0, 5, 158) 91%);
+    text-transform: uppercase;
+    box-shadow: 5px 5px 10px 9rgb(0, 0, 0);
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+section#home #content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+section#home #content h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+section#home #content div{
+    flex: 1;
+    padding: 20px;
+}

@@ -5,11 +5,12 @@
 }
 section#home{
     height: 100vh;
-    background: #3a3ea6;
-    background: linear-gradient(90deg, rgba(58, 62, 166, 1) 21%, rgb(83, 2, 130) 51%, rgba(58, 62, 166, 1) 91%);
     padding: 0 50px 0 50px;
+    position: relative;
+    overflow: hidden;
     
 }
+
 section#home header{
     display: flex;
     justify-content: space-between;
@@ -42,12 +43,14 @@ button{
     border: none;
     color: white;
     background: #3a3ea6;
-    background: linear-gradient(90deg, rgb(4, 10, 160) 21%, rgb(83, 2, 130) 51%, rgb(0, 5, 158) 91%);
+    background: linear-gradient(180deg, #8A3ECF 0%, #7026C1 100%);
     text-transform: uppercase;
-    box-shadow: 5px 5px 10px 9rgb(0, 0, 0);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 body{
     font-family: 'Roboto', sans-serif;
+    background: radial-gradient(circle, #2c134b, #1b0d31, #0d0221);
 }
 section#home #content{
     display: flex;
@@ -63,3 +66,119 @@ section#home #content div{
     flex: 1;
     padding: 20px;
 }
+section#home #content #myImgDiv{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 50px;
+}
+section#home #content div img{
+    width: 400px;
+    border-radius: 50%;
+    height: 400px;
+
+}
+section#home #content #buttons{
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+section#home #prototype{
+    background-color: #f7d24a; /* Un tono de amarillo similar al de la imagen */
+    height: 70px; /* Ajusta el grosor del rectángulo */
+    display: flex; /* Activa Flexbox para distribuir los elementos */
+    justify-content: space-around; /* Distribuye el texto con espacio entre ellos */
+    align-items: center; /* Centra el texto verticalmente */
+    transform: rotate(2deg); /* Inclina el rectángulo ligeramente */
+    position: absolute; /* Permite posicionarlo de manera específica */
+    bottom: 10; /* Lo coloca en la parte inferior de la sección principal */
+    width: 120%; /* Ocupa todo el ancho de la pantalla */
+    /*Hola profe, en esta seccion si use gemini porque no se como darle el efecto a la linea amarilla que dice prototipo*/
+    left: -10%;
+    z-index: 2;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+section#home #prototype span {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 1.7rem;
+}
+section#home #purplerectangle{
+    /*En esta seccion ya la hice yo basandome en la otra */
+    background-color: purple;
+    height: 70px;
+    position: absolute;
+    bottom: 10;
+    width: 120%;
+    left: -10%;
+    z-index: 1;
+}
+section#aboutME{
+    height: 60vh;
+    padding: 0px 50px 0 50px;
+    position: relative;
+    overflow: hidden;
+    
+}
+section#aboutME #test{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+section#aboutME #test div{
+    flex: 1;
+}
+section#aboutME #imgaboutme{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 50px;
+}
+section#aboutME #test #imgaboutme img{
+    width: 400px;
+    border-radius: 50%;
+    height: 400px;
+}
+section#aboutME #test div h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+section#aboutME #test div h4{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+section#aboutME #test div p{
+    margin-bottom: 10px;
+}
+section#aboutME .subcontent2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section#aboutME .subcontent2 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: gray;
+    border-radius: 25px;
+    padding: 5px;
+}
+section#aboutME #test div button{
+    font-size: 0.7rem;
+    width: 10rem;
+    border-radius: 20px;
+}
+
+
+
+
+
+

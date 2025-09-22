@@ -194,10 +194,12 @@ section#Services{
 section#Services .subsection3{
     display: grid;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
+    width: 100%;
+    margin: auto;
 
 }
 section#Services #header2{
@@ -233,7 +235,78 @@ section#Services .subsection3 div h4 {
     width: 100%;
     margin-bottom: 2px;
 }
+section#toolskill{
+    height: 85vh;
+    padding: 0 50px 0 50px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    padding-top: 50px;
 
+}
+section#toolskill #subsection4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    gap: 44px;
+}
+section#toolskill #subsection4 .sections{
+    background-color: #2a2a3e;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 15px 20px;
+    width: 80%;
+}
+section#toolskill #subsection4 .imgbackground{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #a259ff;
+}
+section#toolskill #subsection4 .imgbackground img{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+}
+section#toolskill #subsection4 .progress{
+    background-color: white;
+    width: 50%;
+    height: 30px;
+    border-radius: 11px;
+}
+section#toolskill #subsection4 .progress div {
+    background-color: purple;
+    height: auto;
+    width: 80%;
+    height: 100%;
+    border-radius: 11px;
+}
+section#toolskill #subsection4 .text{
+    width: 10%;
+    padding-right: 200px;
+}
+section#toolskill #subsection4 .progress div p{
+    width: 98%;
+    text-align: right;
+    height: auto;
+    padding-top: 5px;
+}
+section#toolskill h3{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 
 

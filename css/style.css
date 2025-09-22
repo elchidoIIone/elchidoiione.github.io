@@ -18,7 +18,8 @@ section#home header{
     height: 100px;
 }
 section#home header div h1{
-    color:white
+    color:white;
+    
 }
 section#home header nav ul{
     display: flex;
@@ -61,6 +62,7 @@ section#home #content{
 section#home #content h2{
     font-size: 2.5rem;
     margin-bottom: 20px;
+    font-family: 'AlanSans'
 }
 section#home #content div{
     flex: 1;
@@ -170,12 +172,68 @@ section#aboutME .subcontent2 div{
     background-color: gray;
     border-radius: 25px;
     padding: 5px;
+    height: 30px;
+    width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
 section#aboutME #test div button{
     font-size: 0.7rem;
     width: 10rem;
     border-radius: 20px;
 }
+section#Services{
+    height: 100vh;
+    padding: 0 50px 0 50px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    padding-top: 50px;
+}
+section#Services .subsection3{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+
+}
+section#Services #header2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+section#Services .subsection3 div{
+    background: rgba(45, 45, 70, 0.25);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    text-align: justify;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+}
+section#Services .subsection3 div p{
+    text-align: justify;
+}
+section#Services .subsection3 div img{
+    width: 100%;
+    height: 500%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+section#Services .subsection3 div h4 {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
 
 
 

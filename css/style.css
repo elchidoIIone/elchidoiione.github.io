@@ -308,7 +308,7 @@ section#toolskill h3{
     padding-bottom: 20px;
 }
 section#Myportfolio{
-    height: 100vh;
+    height: 140vh;
     padding: 0 50px 0 50px;
     color: white;
     padding-top: 20px;
@@ -365,6 +365,80 @@ section#Myportfolio h4{
     margin-bottom: 2px;
 }
 section#Myportfolio h3{
+    width: 100%;
+    text-align: center;
+}
+section#testimonials{
+    height: 100vh;
+    padding: 0 50px 0 50px;
+    color: white;
+    
+}
+section#testimonials #subsection6{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+section#testimonials #subsection6 .t_photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 350px;
+    background-color: rgba(40, 10, 100, 0.4);
+    border-radius: 15px;
+}
+section#testimonials #subsection6 .t_photos div{
+    width: 350px;
+    height: 350px;
+}
+section#testimonials #subsection6 .t_photos div img{
+    max-width: 100%;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+}
+section#testimonials #subsection6 .t_photos .s_img{
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+section#testimonials #subsection6 .t_photos .s_img img{
+    width: 45px;
+    height: 45px;
+    border-radius: 0;
+    padding-top: 60px;
+}
+section#testimonials #subsection6 .t_photos .s_img p{
+    width: 98%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    text-align: left;
+}
+section#testimonials #subsection6 .t_photos .s_img h3{
+    width: 98%;
+    text-align: left;
+    padding-bottom: 2px;
+    font-size: 24px;
+}
+section#testimonials #subsection6 .t_photos .s_img h4{
+    font-weight: normal;
+}
+section#testimonials h2{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+section#testimonials h3{
     width: 100%;
     text-align: center;
 }

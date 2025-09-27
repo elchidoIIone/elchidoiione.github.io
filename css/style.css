@@ -534,10 +534,6 @@ section#Contact{
     color: white;
     position: relative;
     overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
 }
 section#Contact #subsection8{
     display: flex;
@@ -634,7 +630,7 @@ section#Contact #Map{
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 40%;
+    height: 50%;
     z-index: -1;
 }
 section#Contact #Map iframe{
@@ -643,9 +639,126 @@ section#Contact #Map iframe{
     border: 0;
     filter: grayscale(50%) opacity(0.8);
 }
+section#News{
+    height: 100vh;
+    padding: 0 50px 0 50px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+}
+section#News #d_news{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 30px;
+}
+section#News #d_news .subsection9{
+    background: rgba(45, 45, 70, 0.25);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    display: flex;
+    width: 95%;
+    height: 25%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 0 30px;
+}
+section#News #d_news .subsection9 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33%;
+}
+section#News #d_news .subsection9 div h2{
+    font-size: 100px;
+    text-align: unset;
+}
+section#News #d_news .subsection9 div h3{
+    font-size: 15px;
+    font-weight: lighter;
+}
+section#News #d_news .subsection9 div h4{
+    font-size: 30px;
+}
+section#News #d_news .subsection9 .i_news{
+    justify-content: right;
+    align-items: unset;
+}
+section#News #d_news .subsection9 .i_news h4{
+    font-size: 25px;
+}
+section#News #d_news .subsection9 .i_news p{
+    font-size: 20px;
+}
+section#News h2{
+    width: 100%;
+    text-align: center;
+}
+section#footer{
+    height: 30vh;
+    padding: 0 50px 0 50px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+    background-color: #0d0221;
+}
+section#footer #subsection10{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    gap: 40px;
+}
 
+section#footer #subsection10 #me_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
 
-
+}
+section#footer #subsection10 #me_footer #me_section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 20px;
+    justify-content: unset;
+}
+section#footer #subsection10 #me_footer #me_section img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+section#footer #subsection10 #me_footer #me_section h2{
+    font-size: 1.5rem;
+    margin: 0;
+}
+section#footer #subsection10 #me_footer h3{
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+section#footer #subsection10 #me_footer p{
+    font-size: 1rem;
+}
+section#footer #subsection10 div h3{
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+section#footer #subsection10 div ul{
+    list-style: none;
+}
+section#footer #subsection10 div ul li{
+    cursor: pointer;
+    color: #cccccc;
+    margin-bottom: 15px;
+}
 
 
 

@@ -11,8 +11,6 @@ body{
     background-position: center;
 }
 #background #character{
-    border: solid;
-    border-color: white;
     position: absolute;
     width: 250px;
     height: 250px;
@@ -29,8 +27,6 @@ body{
 
 }
 #background .barrel{
-    border: solid;
-    border-color: white;
     position: absolute;
     width: 200px;
     height: 200px;

@@ -22,6 +22,11 @@ body{
     background-image: url('../img/dk.png');
     background-size: contain;
     background-repeat: no-repeat;
+    animation-name: Jumps;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
 }
 #background .barrel{
     border: solid;
@@ -30,6 +35,50 @@ body{
     width: 200px;
     height: 200px;
     display: flex;
+    animation-name: rotateBarrel;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes rotateBarrel{
+    0%, 79%{
+        transform: rotate(0deg);
+    }
+    96%, 100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes Jumps{
+    0%{
+        top:-200px
+    }
+    20%{
+        top: 90px;
+        left: 105px;
+    }
+    40%{
+        bottom: 300px;
+        left: 350px;
+    }
+    60%{
+        top: 330px;
+        left: 870px;
+    }
+    79%{
+        opacity: 100%;
+    }
+    95%{
+        top: 500px;
+        left: 100px;
+        opacity: 1;
+        transform: rotate(360deg);
+        
+    }
+    100%{
+        top: -300px;
+        opacity: 0.5;
+    }
 }
 #background .barrel img{
     object-fit: contain;
@@ -37,7 +86,7 @@ body{
     height: 100%;
 }
 #background #barrel1 img{
-    transform: rotate(-25deg);
+
 }
 #background #barrel1{
     bottom: 60px;

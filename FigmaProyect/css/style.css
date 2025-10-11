@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+:root{
+    --bg: #800020;
+    --radius: 8px;
+    --bg2: #99334D;
+}
+section{
+    height: 100vh;
+    overflow: hidden;
+}
+header{
+    color: white;
+     font-family: 'Inter', sans-serif;
+}
+header > div{
+    background-color: var(--bg);
+    display: flex;
+    height: 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+header > div > #zaLogo{
+    width: 10%;
+    align-items: center;
+    justify-items: center;
+}
+header > div > #zaLogo > img{
+    display: block;
+    height: 65%;
+    width: 65%;
+}
+header > div > #schlName{
+    width: 70%;
+    justify-content: right;
+}
+header > div > #schlName > h1{
+    font-size: 2rem;
+}
+header > div > #logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    gap: 0.5rem;
+}
+header > div > #logos > img{
+    width: 20%;
+}
+section > #mnBody{
+    background-color: white;
+    height: 90%;
+    display: flex;
+    width: 100%;
+    
+}
+section > #mnBody > #selectSection{
+    width: 10%;
+    background-color: var(--bg2);
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+section > #mnBody > #selectSection > button{
+    background-color: var(--bg2);
+    font-size: 5rem;
+}
+section > #mnBody > #Table{
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}

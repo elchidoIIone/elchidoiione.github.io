@@ -68,6 +68,9 @@ section > #mnBody > #selectSection > button{
     background-color: var(--bg2);
     font-size: 5rem;
 }
+section > #mnBody > #selectSection > button:hover{
+    background-color: var(--bg);
+}
 section > #mnBody > #Table{
     width: 90%;
     height: 100%;

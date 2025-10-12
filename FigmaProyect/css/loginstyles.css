@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    overflow: hidden;
 }
 :root{
     --bg: #800020;
@@ -12,7 +13,6 @@ section{
     height: 98vh;
     overflow: hidden;
     background-color: var(--bg);
-
     align-items: center;
     padding: 1.4rem;
 }

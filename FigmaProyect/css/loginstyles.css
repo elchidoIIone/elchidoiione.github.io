@@ -79,3 +79,42 @@ section > form > fieldset > button:hover{
     background-color: var(--bg2);
     color: white;
 }
+@media (min-width: 600px) and (max-width: 1023px) {
+    section > header > h1{
+        font-size: 4rem;
+    }
+    section > header > img{
+        width: 35%;
+        height: auto;
+    }
+    section > form > fieldset > label{
+        width: 80%;
+    } 
+    section> form > fieldset > input{
+        width: 80%;
+    }
+    section > form > fieldset > button{
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 599px) {
+    section > header > h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    section > header > img{
+        width: 50%;
+        height: auto;
+    }
+    section > form > fieldset > label, section > form > fieldset > input{
+        width: 90%;
+    }
+    section > form > fieldset > label{
+        font-size: 1.8rem;
+    }
+    section > form > fieldset > button{
+        margin-top: 2rem;
+        width: 9rem;
+        height: 3.5rem;
+    }
+}

@@ -26,7 +26,9 @@
     header>div>#schlName>h1 {
         font-size: 1.6rem;
     }
-
+    header>div>#schlName>h2{
+        font-size: 1.2rem;
+    }
     header>div>#logos {
         width: 20%;
         gap: 1rem;
@@ -49,7 +51,7 @@
         padding-top: 1rem;
     }
 
-    section>#mnBody>#selectSection>button {
+    section>#mnBody>#selectSection > a > button {
         font-size: 3rem;
         padding: 0.5rem;
     }
@@ -97,6 +99,10 @@
         font-size: 2rem;
     }
 
+    header>div>#schlName>h2{
+        font-size: 1rem;
+        display: none;
+    }
     header>div>#logos {
         width: 60%;
         justify-content: center;

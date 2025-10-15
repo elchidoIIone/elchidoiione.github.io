@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spelling</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/mediaqueries2.css">
-    <title>Students</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/mediaqueries.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
                 </div>
                 <div id="schlName">
                     <h1>Colegio Betito Indio</h1>
-                    <h2>Students</h2>
+                    <h2>Phonics</h2>
                 </div>
                 <div id="logos">
                     <button>
@@ -65,21 +65,10 @@
                         <i class="fa-solid fa-graduation-cap" style="color: #ffffff;"></i>
                     </button>
                 </a>
+
             </div>
-            <div id="inputs">
-                <form action="basexd">
-                    <fieldset>
-                        <label for="names">Nombre(s) del Estudiante</label>
-                        <input type="text" id="names" name="names" required>
-                        <label for="dadLastname">Apellido Paterno del Estudiante</label>
-                        <input type="text" id="dadLastname" name="dadLastname" required>
-                        <label for="momLastname">Apellido Materno del Estudiante</label>
-                        <input type="text" id="momLastName" name="momLastname" required>
-                        <label for="cicle">Ciclo</label>
-                        <input type="text" name="cicle" id="cicle">
-                        <button id="send">Enviar</button>
-                    </fieldset>
-                </form>
+            <div id="table">
+                <script src="./js/tables.js"></script>
             </div>
         </div>
     </section>

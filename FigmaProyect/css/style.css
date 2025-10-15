@@ -50,6 +50,7 @@ header > div > #logos{
 header > div > #logos > button{
     background-color: var(--bg);
     font-size: 3rem;
+
 }
 section > #mnBody{
     background-color: white;
@@ -64,20 +65,53 @@ section > #mnBody > #selectSection{
     height: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    overflow: visible;
 }
-section > #mnBody > #selectSection > button{
-    background-color: var(--bg2);
-    font-size: 5rem;
-}
-section > #mnBody > #selectSection > button:hover{
-    background-color: var(--bg);
-}
-section > #mnBody > #Table{
-    width: 90%;
-    height: 100%;
+section > #mnBody > #selectSection > a{
+    display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    width: 100%;
 }
+section > #mnBody > #selectSection > a > button{
+    background-color: var(--bg2);
+    font-size: 5rem;
+    height: 100%;
+    width: 100%;
+
+}
+section > #mnBody > #selectSection >a > button:hover{
+    background-color: var(--bg);
+}
+section > #mnBody > #table{
+    width: 90%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    padding: 1rem 1rem 1rem 1rem;
+}
+section > #mnBody > #table  table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+section > #mnBody > #table  table  td{
+    border: 5px solid black;
+    text-align: center;
+    height: 2.5rem;
+    overflow-wrap: break-word;
+    padding: 10px;
+}
+section > #mnBody > #table table th{
+    border: 5px solid black;
+    text-align: center;
+    height: 2.5rem;
+    overflow-wrap: break-word;
+    padding: 10px;
+    text-align: left;
+}
+
 /*Students Page*/
 section > #mnBody > #inputs{
     width: 90%;

@@ -106,7 +106,7 @@ section > fieldset > button:hover{
         width: 50%;
         height: auto;
     }
-    section > fieldset > label, section > form > fieldset input{
+    section > fieldset > label, section > fieldset input{
         width: 90%;
     }
     section > fieldset > label{

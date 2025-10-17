@@ -126,6 +126,13 @@
         height: 100%;
         font: 1.1rem;
     }
+    section>#mnBody>#inputs #btnBack{ 
+    display: flex;
+}
+section>#mnBody> #inputs>#btnBack:hover {
+    background-color: var(--bg);
+    transform: scale(1.05);
+}
 
     section>#mnBody>#inputs>form>fieldset {
         justify-content: center;

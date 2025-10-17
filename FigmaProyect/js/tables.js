@@ -40,3 +40,4 @@ document.addEventListener('DOMContentLoaded', function(){
     table.appendChild(tBody);
     container.appendChild(table)
 })
+

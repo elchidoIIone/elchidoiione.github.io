@@ -91,6 +91,7 @@ section > #mnBody > #table{
     overflow: auto;
     padding: 1rem 1rem 1rem 1rem;
 }
+
 section > #mnBody > #table  table{
     width: 100%;
     border-collapse: collapse;
@@ -120,6 +121,16 @@ section > #mnBody > #inputs{
     font-family: 'Inter', sans-serif;
     font-size: 2rem;
     font-weight: 700;
+}
+section>#mnBody>#inputs #btnBack{
+    padding: 0.5rem 1.5rem;
+    background-color: var(--bg2);
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    cursor: pointer; 
+    transition: all 0.2s ease; 
+    display: none;
 }
 section >#mnBody > #inputs > form{
     width: 100%;

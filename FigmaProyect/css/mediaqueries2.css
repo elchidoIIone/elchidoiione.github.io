@@ -1,5 +1,5 @@
 /*Design for tables*/
-@media (min-width: 600px) and (max-width: 1023px) {
+@media (min-width: 700px) and (max-width: 1023px) {
     :root {
         --bg: #800020;
         --bg2: #99334D;
@@ -74,7 +74,7 @@
 }
 
 /*Design for phones*/
-@media (max-width: 599px) {
+@media (max-width: 699px) {
     header>div {
         text-align: center;
         height: auto;

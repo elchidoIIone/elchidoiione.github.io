@@ -62,7 +62,21 @@
         overflow-x: auto;
         padding: 1rem;
     }
-    
+    section>#mnBody>#table>#schlInputs {
+        width: 100%;
+    }
+
+    section>#mnBody>#table>#schlInputs>form>fieldset {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    section>#mnBody>#table>#schlInputs>form>fieldset>input {
+        width: 80%;
+        max-width: 500px;
+        height: 2rem;
+        border-radius: 3rem;
+    }
 }
 /*Design for phones*/
 @media (max-width: 699px){

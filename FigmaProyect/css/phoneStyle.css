@@ -65,7 +65,7 @@ header>div>#logos>button {
 
 section>#mnBody {
     background-color: white;
-    height: 90%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -119,7 +119,56 @@ section>#mnBody table th {
     padding: 10px;
     text-align: left;
 }
-@media (max-width: 599px){
+section > #mnBody > #table > #schlInputs{
+    width: 100%;
+    height: 50%;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+section >#mnBody > #table> #schlInputs > form{
+    width: 100%;
+    height: 100%;
+}
+section > #mnBody > #table > #schlInputs > form > fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 2rem;
+}
+section > #mnBody > #table> #schlInputs > form > fieldset > input{
+    background-color: var(--bg2);
+    outline: none;
+    border-bottom: 10px;
+    border-radius: 10px;
+    width: 60rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+section > #mnBody > #table > #schlInputs > form > fieldset > #schlSend{
+    width: 7rem;
+    background-color: var(--bg2);
+    height: 3rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+section > #mnBody > #table> #schlInputs > form > fieldset > #schlSend:hover {
+    background-color: var(--bg); /* cambia el color al pasar el mouse */
+    transform: scale(1.05);       /* agranda ligeramente */ 
+    /*Esto lo saque con gemini*/
+}
+@media (max-width: 699px){
+    section{
+        overflow: auto;
+    }
     header > div {
         text-align: center;
         height: auto;
@@ -145,6 +194,10 @@ section>#mnBody table th {
         font-size: 1rem;
         display: none;
     }
+    section>#mnBody {
+      
+        overflow: auto;
+    }
 
     header>div>#logos {
         width: 60%;
@@ -153,5 +206,20 @@ section>#mnBody table th {
     }
     header>div>#logos > button {
         font-size: 3rem;
+    }
+        section>#mnBody>#table>#schlInputs {
+        width: 100%;
+    }
+
+    section>#mnBody>#table>#schlInputs>form>fieldset {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    section>#mnBody>#table>#schlInputs>form>fieldset>input {
+        width: 80%;
+        max-width: 500px;
+        height: 2rem;
+        border-radius: 3rem;
     }
 }

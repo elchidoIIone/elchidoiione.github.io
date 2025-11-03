@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     navButtons.forEach(link => {
         link.addEventListener('click', (event) => {
-            // Se revisa el ancho de la ventana al hacer clic.
+            
             if (window.innerWidth < 700) {
                 
                 event.preventDefault();

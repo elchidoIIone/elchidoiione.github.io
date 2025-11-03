@@ -67,17 +67,21 @@
                 </a>
             </div>
             <div id="inputs">
-                <form action="basexd">
+                <form action="./php/students.php" method="post">
                     <fieldset>
-                        <label for="names">Nombre(s) del Estudiante</label>
-                        <input type="text" id="names" name="names" required>
-                        <label for="dadLastname">Apellido Paterno del Estudiante</label>
-                        <input type="text" id="dadLastname" name="dadLastname" required>
-                        <label for="momLastname">Apellido Materno del Estudiante</label>
-                        <input type="text" id="momLastName" name="momLastname" required>
+                        <label for="name">Nombre(s) del Estudiante</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="dadName">Apellido Paterno del Estudiante</label>
+                        <input type="text" id="dadName" name="dadName" required>
+
+                        <label for="momName">Apellido Materno del Estudiante</label>
+                        <input type="text" id="momName" name="momName" required>
+
                         <label for="cicle">Ciclo</label>
                         <input type="text" name="cicle" id="cicle">
-                        <button id="send">Enviar</button>
+
+                        <button type="submit" id="send">Enviar</button>
                     </fieldset>
                 </form>
             </div>

@@ -75,6 +75,9 @@
 
 /*Design for phones*/
 @media (max-width: 699px) {
+    section{
+        overflow: auto;
+    }
     header>div {
         text-align: center;
         height: auto;
@@ -115,6 +118,7 @@
 
     section>#mnBody {
         flex-direction: row;
+        overflow: auto;
     }
 
     section>#mnBody>#selectSection {
@@ -126,10 +130,10 @@
         height: 100%;
         font: 1.1rem;
     }
-    section>#mnBody>#inputs #btnBack{ 
+    section>#mnBody> #btnBack{ 
     display: flex;
 }
-section>#mnBody> #inputs>#btnBack:hover {
+section>#mnBody>#btnBack:hover {
     background-color: var(--bg);
     transform: scale(1.05);
 }

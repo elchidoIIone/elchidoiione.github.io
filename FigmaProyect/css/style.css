@@ -89,6 +89,8 @@ section > #mnBody > #table{
     box-sizing: border-box;
     overflow: auto;
     padding: 1rem 1rem 1rem 1rem;
+    align-items: center;
+    justify-content: center;
 }
 
 section > #mnBody > #table  table{
@@ -110,6 +112,52 @@ section > #mnBody > #table table th{
     overflow-wrap: break-word;
     padding: 10px;
     text-align: left;
+}
+section > #mnBody > #table > #schlInputs{
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+section >#mnBody > #table> #schlInputs > form{
+    width: 100%;
+    height: 100%;
+}
+section > #mnBody > #table > #schlInputs > form > fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 2rem;
+}
+section > #mnBody > #table> #schlInputs > form > fieldset > input{
+    background-color: var(--bg2);
+    outline: none;
+    border-bottom: 10px;
+    border-radius: 10px;
+    width: 60rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+section > #mnBody > #table > #schlInputs > form > fieldset > #schlSend{
+    width: 7rem;
+    background-color: var(--bg2);
+    height: 3rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+section > #mnBody > #table> #schlInputs > form > fieldset > #schlSend:hover {
+    background-color: var(--bg); /* cambia el color al pasar el mouse */
+    transform: scale(1.05);       /* agranda ligeramente */ 
+    /*Esto lo saque con gemini*/
 }
 
 /*Students Page*/

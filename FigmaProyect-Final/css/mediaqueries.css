@@ -1,0 +1,155 @@
+/*Design for tables*/
+@media (min-width: 700px) and (max-width: 1023px){
+:root {
+        --bg: #800020;
+        --bg2: #99334D;
+    }
+
+    header>div {
+        height: 30%;
+        padding: 0 1rem;
+    }
+
+    header>div>#zaLogo {
+        width: 15%;
+    }
+
+    header>div>#zaLogo>img {
+        width: 60%;
+    }
+
+    header>div>#schlName {
+        width: 65%;
+        text-align: left;
+    }
+
+    header>div>#schlName>h1 {
+        font-size: 1.6rem;
+    }
+    header>div>#schlName>h2{
+        font-size: 1.2rem;
+    }
+
+    header>div>#logos {
+        width: 20%;
+        gap: 1rem;
+    }
+
+    header>div>#logos>button {
+        width: 20%;
+        font-size: 2rem;
+    }
+
+    section>#mnBody {
+        flex-direction: row;
+    }
+
+    section>#mnBody>#selectSection {
+        width: 12%;
+        height: 100%;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding-top: 1rem;
+    }
+
+    section>#mnBody>#selectSection > a > button {
+        font-size: 3rem;
+        padding: 0.5rem;
+    }
+    section > #mnBody > #table {
+        width: 88%;
+        height: auto;
+        overflow-x: auto;
+        padding: 1rem;
+    }
+    section>#mnBody>#table>#schlInputs {
+        width: 100%;
+    }
+
+    section>#mnBody>#table>#schlInputs>form>fieldset {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    section>#mnBody>#table>#schlInputs>form>fieldset>input {
+        width: 80%;
+        max-width: 500px;
+        height: 2rem;
+        border-radius: 3rem;
+    }
+}
+/*Design for phones*/
+@media (max-width: 699px){
+    header > div {
+        text-align: center;
+        height: auto;
+    }
+     header > div > #zaLogo {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header > div > #zaLogo > img {
+        width: 60%;
+    }
+
+    header > div > #schlName {
+        width: 60%;
+        text-align: left;
+    }
+    header>div>#schlName>h1 {
+        font-size: 1.7rem;
+    }
+    header>div>#schlName>h2{
+        font-size: 1rem;
+        display: none;
+    }
+
+    header>div>#logos {
+        width: 60%;
+        justify-content: center;
+       
+    }
+    header>div>#logos > button {
+        font-size: 3rem;
+    }
+    section > #mnBody{
+        flex-direction: row;
+    }
+    section> #mnBody > #selectSection{
+        width: 100%;
+        height: 100%;
+        background-color: var(--bg2);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem 0;
+    }
+    section> #mnBody > #selectSection > a {
+        background-color: var(--bg2);
+        font-size: 7rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+        section> #mnBody > #selectSection > a > button{
+            font-size: 7rem;
+        }
+    section > #mnBody > #selectSection > a:hover {
+        background-color: var(--bg);
+    }
+    section > #mnBody > #selectSection > a:last-child{
+        grid-column: 1/-1;
+    }
+    section > #mnBody > #table {
+        display: none;
+        width: 100%;
+    }
+    
+
+}
